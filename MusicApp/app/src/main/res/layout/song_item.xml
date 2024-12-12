@@ -8,7 +8,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="72dp"
         android:layout_margin="10dp"
         android:background="#000000"
         app:cardBackgroundColor="#212121"
@@ -20,14 +20,16 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp">
 
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/iconCard"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 app:cardBackgroundColor="#212121"
                 app:cardCornerRadius="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -48,10 +50,10 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:orientation="vertical"
-                app:layout_constraintStart_toEndOf="@id/iconCard"
-                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/imageButton">
+                app:layout_constraintEnd_toStartOf="@id/imageButton"
+                app:layout_constraintStart_toEndOf="@id/iconCard"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
                     android:id="@+id/textTitle"
@@ -78,10 +80,10 @@
                 android:layout_marginEnd="16dp"
                 android:background="?attr/selectableItemBackground"
                 android:contentDescription="@string/play_button"
-                app:srcCompat="@drawable/vector"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent" />
+                app:srcCompat="@drawable/vector" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
