@@ -16,7 +16,7 @@ class SongAdapter: RecyclerView.Adapter<SongAdapter.SongHolder>() {
         fun bind(song: Song) = with(binding){
             imageView.setImageResource(song.imageId)
             textTitle.text = song.title
-            textView.text = song.author
+            textSubtitle.text = song.author
         }
     }
 
