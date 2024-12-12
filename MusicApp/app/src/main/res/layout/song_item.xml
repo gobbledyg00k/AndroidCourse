@@ -38,7 +38,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/icon" />
+                    app:srcCompat="@drawable/icon_true" />
             </androidx.cardview.widget.CardView>
 
             <LinearLayout
@@ -75,12 +75,10 @@
                 android:id="@+id/imageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:scaleX="0.5"
-                android:scaleY="0.5"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="?attr/selectableItemBackground"
                 android:contentDescription="@string/play_button"
-                app:srcCompat="@drawable/play_2"
+                app:srcCompat="@drawable/vector"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent" />

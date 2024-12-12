@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding.apply{
             rcView.layoutManager = LinearLayoutManager(this@MainActivity)
             rcView.adapter = adapter
-            val song = Song(R.drawable.icon, "Остров", "Леонид Агутин")
+            val song = Song(R.drawable.icon_true, "No Hay Ley", "Kali Uchis")
             for(i in 1..15){
                 adapter.addSong(song)
             }
