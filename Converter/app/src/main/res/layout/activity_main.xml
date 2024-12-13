@@ -8,7 +8,6 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- Поле для ввода суммы -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +26,6 @@
             android:textColorHint="@android:color/holo_red_light" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Выбор валюты -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -56,7 +54,6 @@
             android:spinnerMode="dialog"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Кнопка конвертации -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/convertButton"
         android:layout_width="match_parent"
@@ -65,7 +62,6 @@
         android:text="@string/convert_button"
         app:backgroundTint="@android:color/holo_red_light" />
 
-    <!-- Результат конвертации -->
     <TextView
         android:id="@+id/resultTextView"
         android:layout_width="match_parent"

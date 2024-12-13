@@ -9,11 +9,6 @@ import android.widget.EditText
 import android.widget.Spinner
 import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import org.json.JSONObject
-import java.io.IOException
-import kotlin.concurrent.thread
 import androidx.activity.ComponentActivity
 import androidx.annotation.RequiresApi
 
