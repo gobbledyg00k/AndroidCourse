@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Converter</string>
+    <string name="convert_button">Конвертировать</string>
+    <string name="url">https://www.cbr-xml-daily.ru/daily_json.js</string>
+    <string name="rub">RUB - Российский рубль</string>
+    <string name="incorrect_data">Введите корректные данные</string>
+    <string name="no_data">Невозможно загрузить данные</string>
+    <string name="input_string">Введите сумму</string>
+    <string name="open_conv_button">Открыть конвертер</string>
+    <string name="currencies_list_button">Список валют</string>
 </resources>
